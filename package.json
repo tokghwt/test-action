@@ -1,0 +1,22 @@
+{
+  "name": "test-action",
+  "version": "0.0.0",
+  "description": "test action",
+  "main": "dist/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tokghwt/test-action.git"
+  },
+  "keywords": [],
+  "author": "tokghwt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tokghwt/test-action/issues"
+  },
+  "homepage": "https://github.com/tokghwt/test-action#readme",
+  "files": [
+    "action.yml",
+    "dist"
+  ]
+}
