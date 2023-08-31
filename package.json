@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "lint": "eslint --config eslint/.eslintrc.js --ext .js src/",
+    "prebuild": "node script/version-module-generator.js src/version.js",
     "build": "ncc build src/index.js --license licenses.txt",
     "test": "jest --config=jest/jest.config.js"
   },
