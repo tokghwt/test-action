@@ -20,7 +20,7 @@ See [RegExp() constructor - JavaScript | MDN](https://developer.mozilla.org/en-U
 ## Example usage
 
 ```yaml
-uses: itou0104jp/title-validator@v1
+uses: tokghwt/title-validator@v1
 with:
   pattern: '^(?:(?:feat!?|fix!?|refactor|docs|test|chore)(?:\([^)]+\))?: [A-Z].*[^ ]|release: v[0-9]+\.[0-9]+\.[0-9]+|revert: ".+") \(#[1-9][0-9]*\)$'
 ```
