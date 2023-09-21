@@ -1,0 +1,11 @@
+name: 'Title validator'
+description: 'Validate the title of commit and pull request'
+inputs:
+  pattern:
+    description: 'The RegExp pattern'
+    required: true
+  flags:
+    description: 'The RegExp flags'
+runs:
+  using: 'node16'  # https://github.com/nodejs/release#release-schedule
+  main: 'dist/index.js'
