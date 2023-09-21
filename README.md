@@ -8,14 +8,14 @@ This action validates the title of commit and pull request.
 
 The RegExp pattern.
 
-See [RegExp() constructor - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/RegExp#parameters){:target="_blank"}
+See <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/RegExp#parameters" target="_blank">RegExp() constructor - JavaScript | MDN</a>
 
 ### `flags`
 
 The RegExp flags.  
 Optional.
 
-See [RegExp() constructor - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/RegExp#parameters){:target="_blank"}
+See <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/RegExp#parameters" target="_blank">RegExp() constructor - JavaScript | MDN</a>
 
 ## Example usage
 
