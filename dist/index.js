@@ -29737,7 +29737,7 @@ function wrappy (fn, cb) {
 /***/ 9554:
 /***/ ((module) => {
 
-module.exports = '0.0.0';
+module.exports = '1.0.0';
 
 
 /***/ }),
