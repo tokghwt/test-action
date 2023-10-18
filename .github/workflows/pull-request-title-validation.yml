@@ -1,0 +1,11 @@
+on:
+  pull_request:
+    types: [opened, edited]
+jobs:
+  pull_request_title_validation:
+    runs-on: ubuntu-latest
+    if: ${{ github.actor == 'tokghwt' }}
+    steps:
+      - uses: tokghwt/test-action@v1
+        with:
+          pattern: '^(?:(?:feat|fix|refactor|docs|test|chore)(?:\([^)]+\))?!?: [A-Z].*[^ ]|release: v[0-9]+\.[0-9]+\.[0-9]+|revert: ".+")$'
